@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import "../styles/components/Navbar.css";
 import logo from "../assets/logo.png";
 import mode from "../assets/mode.png";
@@ -8,7 +9,7 @@ function Navbar() {
         <nav className="navbar">
             <img src={logo} height="40px" style={{ cursor: "pointer" }} />
             <div className="menu-container">
-                <Link to="/" className="menu-item">
+                <Link to="/dashboard" className="menu-item">
                     Dashboard
                 </Link>
                 <Link to="/transfer" className="menu-item">

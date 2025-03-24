@@ -1,0 +1,118 @@
+/* src/styles/TopUpPage.css */
+.topup-wrapper {
+    min-height: 100vh;
+    background-color: #f7f9fb;
+}
+
+.topup-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topup-inner {
+    width: 100%;
+    max-width: 600px;
+}
+
+.topup-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.topup-form-card {
+    background: white;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Amount Input Styling */
+.fund-input-wrapper {
+    margin-bottom: 24px;
+    background-color: #fafbfd;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.fund-value-field {
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+}
+
+.available-funds {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+.fund-amount {
+    color: #00aa7f;
+    font-weight: bold;
+}
+
+/* From Input Styling */
+.select-container {
+    margin-bottom: 24px;
+}
+
+.select-field {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #fafbfd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.select-label {
+    font-weight: bold;
+    margin-right: 12px;
+    color: #333;
+    min-width: 60px;
+}
+
+.select-value {
+    flex-grow: 1;
+}
+
+.select-arrow {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-left: auto;
+}
+
+/* Notes Input Styling */
+.note-container {
+    margin-bottom: 24px;
+}
+
+/* Override FormInput styling for notes */
+.note-field {
+    background-color: #fafbfd;
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.note-field::placeholder {
+    font-weight: bold;
+    color: #333;
+}
+
+.action-section {
+    margin-top: 32px;
+}
