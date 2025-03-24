@@ -1,0 +1,42 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.login-left {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 291px;
+    margin-bottom: 40px;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #0061ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-right {
+    flex: 1;
+    overflow: hidden;
+}
+
+.login-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

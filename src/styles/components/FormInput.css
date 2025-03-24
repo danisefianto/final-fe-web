@@ -1,0 +1,16 @@
+/* FormInput.css */
+.form-input {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f9fbfd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

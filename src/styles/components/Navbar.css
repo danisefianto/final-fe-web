@@ -1,0 +1,42 @@
+.navbar {
+    background-color: white;
+    height: 100px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover {
+    color: #0061ff;
+    font-weight: bold;
+}
+
+.divider {
+    border-left: 1px solid #b3b3b3;
+    height: 40px;
+}
+
+#theme-toggle {
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+#theme-toggle:hover {
+    background-color: #f4f4f4;
+}
+
+
