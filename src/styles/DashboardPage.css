@@ -1,0 +1,193 @@
+/* src/styles/DashboardPage.css */
+
+/* Uncomment for debugging layout
+* {
+  border: blue 1px dashed;
+} */
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+    /* Mobile styles will go here */
+}
+
+/* General styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fafbfd;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0061ff;
+    font-weight: bold;
+}
+
+/* Layout container */
+.dashboard-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Greetings section */
+.greetings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.welcome-content {
+    flex: 3;
+}
+
+.greetings h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.greetings p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #555;
+}
+
+.user-profile {
+    display: flex;
+    flex: 1;
+}
+
+.user-details {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    border: #0061ff 7px solid;
+    object-fit: cover;
+}
+
+.user-details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.user-details p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-top: 0;
+}
+
+/* Account information section */
+.account-info {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.account-number {
+    background-color: #0061ff;
+    height: 216px;
+    width: 273px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-number h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.account-number h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.balance-summary {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 216px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.balance-summary h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.balance-summary h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.amount-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quick-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.visibility-btn {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.visibility-btn:hover {
+    background-color: #fafbfd;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn {
+    background-color: #0061ff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+    background-color: #0051ff;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}

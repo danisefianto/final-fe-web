@@ -22,7 +22,7 @@ function LoginPage() {
                         placeholder="Password"
                         name="password"
                     />
-                    <Link to="/">
+                    <Link to="/dashboard">
                         <MainButton text="Login" />
                     </Link>
                 </form>
@@ -38,52 +38,3 @@ function LoginPage() {
 }
 
 export default LoginPage;
-
-
-// import MainButton from "../components/MainButton.jsx";
-// import Navbar from "../components/Navbar.jsx";
-// import TableTransaction from "../components/TableTransaction.jsx";
-// import FormInput from "../components/FormInput.jsx";
-
-// function LoginPage() {
-//     return (
-//         <>
-//             <Navbar />
-//             <div style={{ padding: "40px", maxWidth: "1000px", margin: "0 auto" }}>
-//                 {/* Form Preview Section */}
-//                 <div style={{ marginTop: "20px", maxWidth: "400px" }}>
-//                     <h2>Form Input Preview</h2>
-//                     <div className="auth-form">
-//                         <FormInput
-//                             type="email"
-//                             placeholder="Email Address"
-//                             name="email"
-//                         />
-//                         <FormInput
-//                             type="password"
-//                             placeholder="Password"
-//                             name="password"
-//                         />
-//                         <MainButton
-//                             text="Sign In"
-//                             onClick={() => alert('Login button clicked!')}
-//                         />
-//                     </div>
-//                 </div>
-
-//                 <div style={{ marginTop: "40px" }}>
-//                     <h2>Button Preview</h2>
-//                     <MainButton
-//                         text="Test Button"
-//                         onClick={() => alert('Button clicked!')}
-//                     />
-//                 </div>
-
-//                 <div style={{ marginTop: "40px" }}>
-//                     <h2>Transaction History</h2>
-//                     <TableTransaction />
-//                 </div>
-//             </div>
-//         </>
-//     );
-// }
