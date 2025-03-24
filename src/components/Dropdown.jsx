@@ -1,4 +1,4 @@
-// src/components/Dropdown.jsx
+
 import arrowIcon from "../assets/dropdown.png";
 import "../styles/components/Dropdown.css";
 

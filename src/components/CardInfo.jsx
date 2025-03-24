@@ -1,4 +1,4 @@
-// src/components/CardInfo.jsx
+
 import view from "../assets/view.png";
 import plus from "../assets/plus.png";
 import transfer from "../assets/transfer.png";
@@ -14,7 +14,7 @@ function CardInfo() {
                 <h4>Balance</h4>
                 <div className="action-container">
                     <div className="amount-display">
-                        <h3>Rp 10.000.000,00</h3>
+                        <h3>Rp 99.000.000,00</h3>
                         <button className="visibility-btn">
                             <img src={view} height="38" alt="View balance" />
                         </button>

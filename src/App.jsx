@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import DashboardPage from './pages/DashboardPage'
 import TopUpPage from './pages/TopUpPage'
+import TransferPage from './pages/TransferPage'
 
 function App(params) {
   return (
@@ -15,6 +16,7 @@ function App(params) {
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/dashboard" element={<DashboardPage />} />
       <Route path="/topup" element={<TopUpPage />} />
+      <Route path="/transfer" element={<TransferPage />} />
     </Routes>
   )
 }
